@@ -15,7 +15,7 @@
                         height="{{ $avatar.Height }}"
                         class="site-logo"
                         loading="lazy"
-                        alt="Avatar">
+                        alt="{{ .Site.Title }} 프로필 사진">
                 </a>
                 {{ with $.Site.Params.sidebar.emoji }}
                     <span class="emoji">{{ . }}</span>
