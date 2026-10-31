@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Antigravity Portfolio Custom Styles
+   - 접근성 (P43 초점 표시, P49 상태 구별)
+   - 반응형 화면 (P32 모바일 본문, P36 긴 텍스트 처리)
+   ========================================================================== */
+
+/* P43 초점 표시: 키보드 Tab 탐색 시 명확한 Focus Ring 제공 */
+:focus-visible {
+    outline: 2px solid var(--accent-color, #2a75d3) !important;
+    outline-offset: 3px !important;
+    box-shadow: 0 0 0 4px rgba(42, 117, 211, 0.25) !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+    border-radius: 4px;
+}
