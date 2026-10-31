@@ -16,3 +16,15 @@ a:focus-visible,
 input:focus-visible {
     border-radius: 4px;
 }
+
+/* P32 모바일 본문 가독성 및 P36 긴 텍스트 넘침 방지 */
+.article-content {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    line-height: 1.85;
+}
+
+.article-content a,
+.article-content code {
+    word-break: break-all;
+}
