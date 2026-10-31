@@ -39,7 +39,7 @@ darkMode   = "다크 모드"
 
 [widget]
     [widget.archives]
-        title = "보관함"
+        title = "아카이브"
         more  = "더보기"
 
     [widget.categoriesCloud]
