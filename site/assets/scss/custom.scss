@@ -44,3 +44,24 @@ input:focus-visible {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+
+/* P49 글과 상태 구별: 본문 인라인 링크 호버/포커스 시 색상 외 밑줄로 상태 구별 */
+.article-content a:not(.gallery-image) {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.article-content a:not(.gallery-image):hover {
+    text-decoration-thickness: 2.5px;
+}
+
+/* P39 터치 조작 구분: 모바일(390px) 내비게이션 메뉴 및 버튼 최소 터치 영역 확보 */
+@media (max-width: 768px) {
+    #main-menu li a {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+}
