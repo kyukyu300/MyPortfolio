@@ -28,3 +28,19 @@ input:focus-visible {
 .article-content code {
     word-break: break-all;
 }
+
+/* 인용구(Blockquote) 시각적 구분 강화 */
+.article-content blockquote {
+    border-left: 4px solid var(--accent-color, #2a75d3);
+    padding: 0.8rem 1.2rem;
+    background: rgba(42, 117, 211, 0.05);
+    border-radius: 0 6px 6px 0;
+    margin: 1.5rem 0;
+}
+
+/* P32 모바일 폭(390px) 코드 블록 내부 스크롤 안전성 확보 */
+.article-content .highlight {
+    border-radius: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
