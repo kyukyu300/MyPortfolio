@@ -8,6 +8,9 @@ links:
   - title: 포트폴리오 저장소
     description: 이 사이트의 소스 코드와 GitHub Actions 배포 기록이 있는 저장소입니다.
     website: https://github.com/kyukyu300/MyPortfolio
+  - title: your Scently 백엔드 저장소
+    description: AI 기반 향수 추천 쇼핑몰 팀 프로젝트의 Django 백엔드 GitHub 저장소입니다.
+    website: https://github.com/oz-main-10-team1/yours-scently-be
 menu:
     main: 
         weight: -50
