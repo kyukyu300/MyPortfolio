@@ -2,7 +2,7 @@
 title: "AI 기반 향수 추천 쇼핑몰 백엔드 API 개발"
 description: "감성 키워드와 설문, 자유 텍스트를 바탕으로 향수를 추천하는 쇼핑몰의 백엔드 API를 개발한 팀 프로젝트 기록입니다."
 slug: "ai-perfume-backend"
-date: 2026-10-31
+date: 2025-08-21
 categories:
     - 프로젝트
 tags:
