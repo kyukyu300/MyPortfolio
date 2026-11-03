@@ -105,3 +105,16 @@ git push origin main
 ### 4. 공개 사이트 배포 결과 확인
 - 배포 완료 후 브라우저에서 공개 사이트([https://kyukyu300.github.io/MyPortfolio/](https://kyukyu300.github.io/MyPortfolio/))에 접속합니다.
 - 브라우저 캐시로 인해 이전 화면이 보일 수 있으므로 **강력 새로고침**(`Cmd + Shift + R` 또는 `Ctrl + F5`)을 수행하여 변경 사항이 정상 반영되었는지 확인합니다.
+
+---
+
+## 📄 오픈소스 테마 출처 및 라이선스 고지 (P58)
+
+본 웹사이트는 아래 오픈소스 테마를 기반으로 구축 및 커스터마이징되었습니다. 원작자의 저작권 고지 및 라이선스 정책을 준수합니다.
+
+- **기반 테마**: **[Hugo Theme Stack](https://github.com/CaiJimmy/hugo-theme-stack)**
+- **테마 원작자**: [Jimmy Cai](https://jimmycai.com) ([@CaiJimmy](https://github.com/CaiJimmy))
+- **테마 라이선스**: **GNU General Public License v3.0 (GPL-3.0)**
+  - 본 포트폴리오의 레이아웃 및 테마 구성 요소는 GPL-3.0 조건을 따릅니다.
+  - 사이트 하단 푸터 영역에 원작자의 출처 표기(`Jimmy의 Stack 테마 사용 중`)를 누락 없이 온전히 보존하고 있습니다.
+- **아이콘 라이선스**: [Tabler Icons](https://tabler-icons.io/) (MIT License)
