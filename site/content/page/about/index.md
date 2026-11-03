@@ -51,6 +51,11 @@ menu:
 
 ## 대표 프로젝트 및 활동
 
+- **[대학생 AI 스마트 어시스턴트: Gmail 및 학사 일정 자동화 에이전트](/MyPortfolio/p/college-ai-agent/)**
+  - Gemini LLM 기반 Gmail 요약, Google Calendar 일정 자동 등록, 전북대 장학 공지 크롤러 구축
+  - 텔레그램 네이티브 라이트너(Leitner) 퀴즈 복습 시스템 및 GitHub Actions 서버리스 자동화 파이프라인 운영
+  - 저장소: [Gmail-Agent](https://github.com/kyukyu300/Gmail-Agent)
+
 - **[AI 기반 향수 추천 쇼핑몰 백엔드 API 개발](/MyPortfolio/p/ai-perfume-backend/)**
   - 감성 키워드 및 설문 기반 AI 향수 추천 쇼핑몰의 Django REST Framework 백엔드 구축
   - Docker Compose 및 NCP 기반 배포 환경 구성, 이미지 용량 최적화 (9GB → 3GB)
