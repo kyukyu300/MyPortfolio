@@ -73,3 +73,35 @@ python .github/pages_build.py --build
 | **활동 글 추가/수정** | `site/content/post/<폴더명>/index.md` | 대표 프로젝트 포스트 본문 및 캡처 이미지 (Page Bundle) |
 | **커스텀 스타일** | `site/assets/scss/custom.scss` | 초점 링(Focus Ring), 반응형 줄바꿈, 터치 영역 스타일 |
 | **프로필 아바타** | `site/assets/img/avatar.png` | 사이드바 및 파비콘으로 사용되는 프로필 이미지 (300x300) |
+
+---
+
+## 🚀 수정 후 Git 커밋 및 자동 재배포 확인 절차 (P57)
+
+로컬에서 사이트 내용을 수정한 후 원격 저장소에 반영하고, GitHub Actions를 통해 자동 배포되는 것을 확인하는 전체 흐름입니다.
+
+### 1. 변경 사항 커밋 및 푸시
+```bash
+# 수정된 파일 확인
+git status
+
+# 변경 파일 스테이징 및 의미 있는 커밋 메시지 작성
+git add site/content/page/about/index.md
+git commit -m "소개 페이지: 최신 활동 내용 업데이트"
+
+# 원격 main 브랜치로 푸시 (또는 작업 브랜치 푸시 후 PR 병합)
+git push origin main
+```
+
+### 2. GitHub Pages 및 Actions 설정 확인
+- 저장소의 **Settings** 탭 ➡️ **Pages** 메뉴로 이동합니다.
+- **Build and deployment** 항목의 **Source**가 반드시 **`GitHub Actions`**로 지정되어 있어야 합니다.
+
+### 3. 자동 배포 진행 상황 확인
+- 저장소 상단의 **Actions** 탭(`https://github.com/kyukyu300/MyPortfolio/actions`)으로 이동합니다.
+- `main` 브랜치에 푸시된 커밋에 대해 `Deploy Hugo to GitHub Pages` 워크플로가 자동으로 트리거됩니다.
+- `build` 단계(Hugo 빌드)와 `deploy` 단계(Pages 배포)가 모두 녹색 체크(`✓`)로 완료될 때까지 대기합니다 (약 40초~1분 소요).
+
+### 4. 공개 사이트 배포 결과 확인
+- 배포 완료 후 브라우저에서 공개 사이트([https://kyukyu300.github.io/MyPortfolio/](https://kyukyu300.github.io/MyPortfolio/))에 접속합니다.
+- 브라우저 캐시로 인해 이전 화면이 보일 수 있으므로 **강력 새로고침**(`Cmd + Shift + R` 또는 `Ctrl + F5`)을 수행하여 변경 사항이 정상 반영되었는지 확인합니다.
