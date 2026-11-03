@@ -1,28 +1,13 @@
-![image](https://user-images.githubusercontent.com/5889006/190859441-141b5f81-8483-40d2-bd96-ebf85616a46d.png)
+# 김규진 개인 포트폴리오 웹사이트 (MyPortfolio)
 
-# Hugo Theme Stack
+Hugo 정적 사이트 생성기와 GitHub Actions, GitHub Pages를 활용하여 구축한 김규진의 개인 포트폴리오 사이트입니다.  
+컴퓨터공학 전공 지식과 웹/백엔드 개발 활동, AI 에이전트 프로젝트 기록을 담고 있습니다.
 
-<img align="right" width="150" alt="logo" src="https://user-images.githubusercontent.com/5889006/190859553-5b229b4f-c476-4cbd-928f-890f5265ca4c.png">
+---
 
-Card-style Hugo theme designed for bloggers.
+## 🌐 사이트 및 저장소 정보
 
-## Quickstart
-
-Use this template: [CaiJimmy/hugo-theme-stack-starter](https://github.com/CaiJimmy/hugo-theme-stack-starter)
-
-## Demo
-
-Check [demo.stack.cai.im](https://demo.stack.cai.im)
-
-## Documentation
-
-- [English](https://stack.cai.im)
-- [中文](https://stack.cai.im/zh)
-
-## Copyright
-
-**Licensed under the GNU General Public License v3.0**
-
-Please do not remove the "*Theme Stack designed by Jimmy*" text and link.
-
-If you want to port this theme to another blogging platform, please let me know🙏.
+- **공개 배포 URL**: [https://kyukyu300.github.io/MyPortfolio/](https://kyukyu300.github.io/MyPortfolio/)
+- **소스 코드 저장소**: [https://github.com/kyukyu300/MyPortfolio](https://github.com/kyukyu300/MyPortfolio)
+- **배포 브랜치**: `main` (GitHub Actions를 통한 자동 빌드 및 배포)
+- **사이트 제작자**: 김규진 ([@kyukyu300](https://github.com/kyukyu300))
