@@ -118,3 +118,21 @@ git push origin main
   - 본 포트폴리오의 레이아웃 및 테마 구성 요소는 GPL-3.0 조건을 따릅니다.
   - 사이트 하단 푸터 영역에 원작자의 출처 표기(`Jimmy의 Stack 테마 사용 중`)를 누락 없이 온전히 보존하고 있습니다.
 - **아이콘 라이선스**: [Tabler Icons](https://tabler-icons.io/) (MIT License)
+
+---
+
+## 🔍 자료 출처 및 저작 구분 (P58)
+
+과제 평가 기준(P58)에 따라 본 사이트에 사용된 모든 자료의 제작 주체 및 출처를 투명하게 구분하여 기록합니다.
+
+| 구분 | 항목 및 대상 파일 | 세부 출처 및 설명 |
+| :--- | :--- | :--- |
+| **직접 제작** | 프로필 아바타 (`site/assets/img/avatar.png`) | 본인 GitHub 실제 프로필 사진 직접 등록 사용 |
+| **직접 제작** | 프로젝트 캡처 (`service-main.jpg`) | `your Scently` 팀 프로젝트 실제 서비스 메인 화면 캡처 및 최적화 |
+| **직접 제작** | 커스텀 스타일 (`site/assets/scss/custom.scss`) | Focus Ring, 모바일 터치 영역, 가독성 줄바꿈 스타일 직접 작성 |
+| **직접 제작** | 소개 및 활동 글 본문 (`site/content/**`) | 본인의 실제 관심사, 학업 목표, 프로젝트 수행 내역 및 트러블슈팅 직접 기술 |
+| **AI 활용** | 문장 정리 및 초안 검토 | Antigravity AI를 활용한 문장 윤문, 마크다운 포맷팅 및 채점 기준 대조 |
+| **AI 활용** | 빌드 오류 분석 및 해결 | Actions 빌드 실패 시 템플릿 컨텍스트 에러(`site.Title`) 분석 및 해결책 도출 |
+| **외부 자료** | Hugo Theme Stack | Jimmy Cai 오픈소스 테마 (GPL-3.0) |
+| **외부 자료** | Tabler Icons | 사이드바 및 UI 벡터 아이콘 (MIT License) |
+| **외부 자료** | Google Fonts (Lato) | 본문 영문 폰트 (Open Font License) |
