@@ -56,3 +56,20 @@ hugo server --source site --buildDrafts --buildFuture
 python .github/pages_build.py --build
 ```
 빌드 성공 시 프로젝트 루트의 `public/` 디렉터리에 배포용 정적 HTML/CSS/JS 파일이 생성됩니다.
+
+---
+
+## 📝 사이트 콘텐츠 및 설정 수정 가이드 (P57)
+
+사이트의 주요 정보나 새로운 활동 글을 수정 및 추가할 때 변경해야 할 파일들의 위치와 역할입니다.
+
+| 항목 | 파일 상대 경로 | 설명 및 수정 내용 |
+| :--- | :--- | :--- |
+| **전역 운영 설정** | `site/config/_default/hugo.toml` | 사이트 `baseURL`, 타이틀, 기본 언어(`ko`), permalinks 규칙 |
+| **사이트 파라미터** | `site/config/_default/params.toml` | 사이드바 아바타 경로, 검색 위젯, 파비콘 설정 |
+| **한국어 문구 설정** | `site/config/_default/languages.toml` | 사이드바 서브타이틀("컴퓨터공학을 배우고 성장하는...") 문구 |
+| **소개 페이지** | `site/content/page/about/index.md` | 본인 소개, 관심 분야, 학습 목표, 기술 역량 표, 활동 목록 |
+| **링크 페이지** | `site/content/page/links/index.md` | GitHub 프로필, 포트폴리오 저장소, 프로젝트 외부 링크 모음 |
+| **활동 글 추가/수정** | `site/content/post/<폴더명>/index.md` | 대표 프로젝트 포스트 본문 및 캡처 이미지 (Page Bundle) |
+| **커스텀 스타일** | `site/assets/scss/custom.scss` | 초점 링(Focus Ring), 반응형 줄바꿈, 터치 영역 스타일 |
+| **프로필 아바타** | `site/assets/img/avatar.png` | 사이드바 및 파비콘으로 사용되는 프로필 이미지 (300x300) |
