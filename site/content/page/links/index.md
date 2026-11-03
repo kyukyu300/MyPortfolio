@@ -11,6 +11,9 @@ links:
   - title: your Scently 백엔드 저장소
     description: AI 기반 향수 추천 쇼핑몰 팀 프로젝트의 Django 백엔드 GitHub 저장소입니다.
     website: https://github.com/oz-main-10-team1/yours-scently-be
+  - title: Gmail-Agent 저장소
+    description: Gemini LLM과 GitHub Actions 기반 대학생 AI 스마트 어시스턴트 프로젝트 GitHub 저장소입니다.
+    website: https://github.com/kyukyu300/Gmail-Agent
 menu:
     main: 
         weight: -50
