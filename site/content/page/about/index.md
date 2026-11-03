@@ -49,8 +49,22 @@ menu:
 
 ---
 
-## GitHub
+## 대표 프로젝트 및 활동
 
-- **GitHub**: [kyukyu300](https://github.com/kyukyu300)
+- **[AI 기반 향수 추천 쇼핑몰 백엔드 API 개발](/MyPortfolio/p/ai-perfume-backend/)**
+  - 감성 키워드 및 설문 기반 AI 향수 추천 쇼핑몰의 Django REST Framework 백엔드 구축
+  - Docker Compose 및 NCP 기반 배포 환경 구성, 이미지 용량 최적화 (9GB → 3GB)
+  - 저장소: [yours-scently-be](https://github.com/oz-main-10-team1/yours-scently-be)
 
-> 꾸준히 배우고 기록하겠습니다.
+- **[Hugo와 GitHub Pages로 포트폴리오 사이트 만들기](/MyPortfolio/p/hugo%EC%99%80-github-pages%EB%A1%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/)**
+  - Hugo 정적 사이트 생성기와 GitHub Actions를 연동한 개인 포트폴리오 자동 배포 파이프라인 구축
+  - 시각적 초점(Focus Ring), 이미지 alt 텍스트 등 웹 접근성 및 반응형 레이아웃 커스텀
+  - 저장소: [MyPortfolio](https://github.com/kyukyu300/MyPortfolio)
+
+---
+
+## GitHub & 연락처
+
+- **GitHub**: [github.com/kyukyu300](https://github.com/kyukyu300)
+
+> 배운 것을 직접 만들어보고, 꾸준히 기록하며 성장하는 개발자가 되겠습니다.
