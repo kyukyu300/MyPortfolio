@@ -77,3 +77,15 @@ Python, Google Gemini API, Gmail API, Google Calendar API, Telegram Bot API, Bea
 ### 2. GitHub Actions Cron 스케줄러 대기열 지연 현상 대응
 - **관찰**: GitHub Actions의 정각(09:00) cron 트리거는 전 세계 빌드 대기열 혼잡으로 최대 10~20분 지연 실행되는 현상 관찰.
 - **해결**: 구동 예약 시간을 오전 08:48 KST로 앞당겨 설정하여, 큐 대기 시간과 실행 소요 시간을 감안해 목표 시간인 매일 아침 9시 정각 전후에 브리핑을 안정적으로 수신하도록 최적화.
+
+---
+
+## 배운 점과 개선 방향
+
+### 배운 점
+- LLM API를 단순 챗봇이 아닌, 실생활 데이터를 파싱하고 다른 API(Google Calendar, Telegram)를 조작하는 **의사결정 에이전트(Agentic Workflow)**로 활용하는 경험을 얻었습니다.
+- GitHub Actions를 단순 CI/CD 도구를 넘어 **서버리스 스케줄러 및 자동화 컴퓨팅 인프라**로 응용하는 시야를 넓혔습니다.
+
+### 개선 방향
+- 사용자 피드백을 반영해 퀴즈 카테고리를 정보처리기사나 컴퓨터공학 전공 지식으로 확장
+- 공지사항 중요도 판별 시 벡터 유사도(Embedding)를 도입해 개인 맞춤형 공지만 선별하는 추천 로직 고도화
