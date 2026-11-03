@@ -19,19 +19,19 @@ menu:
 
 ## 관심 분야
 
-**웹 개발**에 관심이 많습니다.  
-처음 HTML/CSS로 직접 웹페이지를 만들었을 때의 즐거움이 계기가 되었습니다. 화면에 내가 작성한 코드가 바로 결과로 나타나는 점이 매력적으로 느껴졌고, 이후 다양한 웹 기술을 배우고 싶어졌습니다.
+**웹 개발 및 백엔드 시스템 구축**에 깊은 관심을 가지고 있습니다.  
+처음 HTML/CSS로 화면을 직접 만들며 웹의 매력을 느꼈고, 점차 사용자의 요청을 처리하고 데이터를 안전하고 빠르게 가공하는 **백엔드 API 서버 개발**에 흥미를 갖게 되었습니다. 현재는 대용량 트래픽에도 안정적으로 대응할 수 있는 아키텍처와 Docker 기반의 컨테이너 환경, 클라우드 인프라 연동을 꾸준히 학습하고 있습니다.
 
 ---
 
-## 학습 목표
+## 학습 목표 및 실행 계획
 
-**Hugo와 GitHub Pages를 활용한 정적 사이트 배포**를 완전히 이해하는 것이 현재 목표입니다.
+현재 핵심 목표는 **안정적인 REST API 설계와 자동화된 배포 파이프라인 구축 능력을 갖춘 백엔드 개발자로 성장하는 것**입니다.
 
-다음 단계로는:
-1. Hugo 설정 파일 구조를 완전히 이해하기
-2. GitHub Actions 자동 배포 흐름 익히기
-3. 커스텀 레이아웃 직접 수정해보기
+이를 위해 다음과 같은 실행 계획을 실천하고 있습니다:
+1. **DB 쿼리 최적화**: ORM 사용 시 발생할 수 있는 N+1 문제를 방지하고 인덱스 최적화 기법 학습하기
+2. **CI/CD 파이프라인 고도화**: GitHub Actions와 Docker를 연계하여 테스트·빌드·배포 전 과정을 자동화하는 파이프라인 완성하기
+3. **시스템 모니터링 및 부하 테스트**: Locust나 k6를 활용해 API 부하 테스트를 직접 수행하고 병목 구간 분석해보기
 
 ---
 
@@ -39,15 +39,32 @@ menu:
 
 | 기술 | 활용 사례 |
 |------|-----------|
-| **HTML / CSS** | 웹페이지 구조 및 스타일 작성 |
-| **Git / GitHub** | 버전 관리, 협업, GitHub Pages 배포 |
-| **Hugo** | 정적 사이트 생성 및 이 포트폴리오 제작 |
-| **Python** | 수업 실습 및 간단한 자동화 스크립트 |
+| **Python** | 수업 실습, 알고리즘 구현 및 데이터 처리 스크립트 작성 |
+| **Django / DRF** | `your Scently` AI 향수 추천 쇼핑몰의 상품·추천·회원 REST API 구현 |
+| **Docker / Compose** | NCP 서버 상에서 Django, PostgreSQL, Redis, Celery, Nginx 멀티 컨테이너 환경 구성 및 멀티 스테이지 빌드로 이미지 용량 경량화 (9GB → 3GB) |
+| **Redis / Celery** | 반복 조회 API 응답 캐싱을 통한 부하 경감 및 비동기 작업 처리 파이프라인 구성 |
+| **PostgreSQL** | 향수 상품 목 데이터 CSV 적재 및 관계형 데이터베이스 모델링 |
+| **Git / GitHub** | 협업 브랜치 전략(Git Flow), PR 코드 리뷰, GitHub Actions 자동 배포 파이프라인 운영 |
+| **Hugo / Web** | Hugo 기반 정적 사이트 구축, 커스텀 SCSS 스타일링 및 웹 접근성(Focus Ring, alt 등) 개선 |
 
 ---
 
-## GitHub
+## 대표 프로젝트 및 활동
 
-- **GitHub**: [kyukyu300](https://github.com/kyukyu300)
+- **[AI 기반 향수 추천 쇼핑몰 백엔드 API 개발](/MyPortfolio/p/ai-perfume-backend/)**
+  - 감성 키워드 및 설문 기반 AI 향수 추천 쇼핑몰의 Django REST Framework 백엔드 구축
+  - Docker Compose 및 NCP 기반 배포 환경 구성, 이미지 용량 최적화 (9GB → 3GB)
+  - 저장소: [yours-scently-be](https://github.com/oz-main-10-team1/yours-scently-be)
 
-> 꾸준히 배우고 기록하겠습니다.
+- **[Hugo와 GitHub Pages로 포트폴리오 사이트 만들기](/MyPortfolio/p/hugo%EC%99%80-github-pages%EB%A1%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/)**
+  - Hugo 정적 사이트 생성기와 GitHub Actions를 연동한 개인 포트폴리오 자동 배포 파이프라인 구축
+  - 시각적 초점(Focus Ring), 이미지 alt 텍스트 등 웹 접근성 및 반응형 레이아웃 커스텀
+  - 저장소: [MyPortfolio](https://github.com/kyukyu300/MyPortfolio)
+
+---
+
+## GitHub & 연락처
+
+- **GitHub**: [github.com/kyukyu300](https://github.com/kyukyu300)
+
+> 배운 것을 직접 만들어보고, 꾸준히 기록하며 성장하는 개발자가 되겠습니다.
