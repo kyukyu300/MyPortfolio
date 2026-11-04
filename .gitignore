@@ -15,3 +15,26 @@ assets/jsconfig.json
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Build Logs & Temp
+*.log
+/tmp/
