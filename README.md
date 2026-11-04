@@ -131,6 +131,7 @@ git push origin main
 | **직접 제작** | 프로젝트 캡처 (`service-main.jpg`) | `your Scently` 팀 프로젝트 실제 서비스 메인 화면 캡처 및 최적화 |
 | **직접 제작** | 커스텀 스타일 (`site/assets/scss/custom.scss`) | Focus Ring, 모바일 터치 영역, 가독성 줄바꿈 스타일 직접 작성 |
 | **직접 제작** | 소개 및 활동 글 본문 (`site/content/**`) | 본인의 실제 관심사, 학업 목표, 프로젝트 수행 내역 및 트러블슈팅 직접 기술 |
+| **AI 활용** | 포스트 커버 일러스트 배너 | AI 이미지 생성을 활용하여 활동 글 배너(`banner.jpg`, `cover.jpg`) 제작 |
 | **AI 활용** | 문장 정리 및 초안 검토 | Antigravity AI를 활용한 문장 윤문, 마크다운 포맷팅 및 채점 기준 대조 |
 | **AI 활용** | 빌드 오류 분석 및 해결 | Actions 빌드 실패 시 템플릿 컨텍스트 에러(`site.Title`) 분석 및 해결책 도출 |
 | **외부 자료** | Hugo Theme Stack | Jimmy Cai 오픈소스 테마 (GPL-3.0) |
