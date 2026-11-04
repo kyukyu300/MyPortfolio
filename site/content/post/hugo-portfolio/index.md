@@ -8,6 +8,7 @@ tags:
     - Hugo
     - GitHub Pages
     - 웹개발
+image: cover.jpg
 ---
 
 ## 활동 개요

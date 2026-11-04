@@ -10,6 +10,7 @@ tags:
     - AI 에이전트
     - 자동화
     - GitHub Actions
+image: banner.jpg
 ---
 
 ## 활동 개요

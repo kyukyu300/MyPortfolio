@@ -9,6 +9,7 @@ tags:
     - Django
     - AI 추천
     - 백엔드
+image: service-main.jpg
 ---
 
 ## 활동 개요
